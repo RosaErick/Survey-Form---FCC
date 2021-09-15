@@ -1,243 +1,296 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="Author" content="Erick Rosa">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="Description" content="Survey Page for a FreeCodeCamp course">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="icon" href="https://img-premium.flaticon.com/png/512/3194/premium/3194591.png?token=exp=1631593915~hmac=d0f5fb43894bfc99e1928f8e65214697">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="Author" content="Erick Rosa" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Survey Page for a FreeCodeCamp course" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="icon"
+      href="https://img-premium.flaticon.com/png/512/3194/premium/3194591.png?token=exp=1631593915~hmac=d0f5fb43894bfc99e1928f8e65214697"
+    />
 
-<Title>Cesta Orgânica inscreva-se</Title>
+    <title>Cesta Orgânica inscreva-se</title>
+  </head>
 
-
-</head>
-
-<body>
-
-        
-        <div id="form-title">
-        <h1 id="title"><img src="https://i.postimg.cc/HkmMGnnd/vegetables.png"  id="h1-image" alt="ícone">Cesta Orgânica </h1>
-    </div>
+  <body>
+    <header>
+      <div id="form-title">
+        <img
+          src="https://i.postimg.cc/HkmMGnnd/vegetables.png"
+          id="h1-image"
+          alt="ícone"
+        />
+        <h1 id="title">Cesta Orgânica</h1>
+      </div>
     </header>
 
     <main>
-    
-    <form id="survey-form">
-        
+      <form id="survey-form">
         <div id="description">
-        <p>Inscreva-se abaixo para receber uma cesta de <span id="fcccolor"> alimentos saudáveis e orgânicos</span> na sua casa.</p>
-
-    </div>
-
-<div class="form-row">
-<div class="label-name">
-<label for="name" id="name-label">
-
-Nome
-
-</label>
-</div>
-<div class="input-field">
-<input class="input-dm" type="text" name="name" id="name" placeholder="Escreva aqui seu nome" required>
-
-</div>
-</div>
-
-<div class="form-row">
-    <div class="label-name">
-<label for="email" id="email-label">
-    Email
-</label>
-
-    </div>
-<div class="input-field">
-<input class="input-dm" type="email" name="email" id="email" placeholder="escreva aqui seu email" required>
-
-
-
-
-</div>
-</div>
-
-<div class="form-row">
-<div class="label-name">
-<label for="age" id="number-label">
- Idade
-</label>
-</div>
-
-<div class="input-field">
-<input class="input-dm" type="number" name="age" id="number" min="18" max="90" placeholder="escreva aqui sua idade">
-</div>
-</div>
-
-<div class="form-row">
-<div class="label-name">
-<label for="address" id="address-label"> 
-    Endereço
-</label>
-</div>
-<div class="input-field">
-    <input class="input-dm" type="address" name="address" placeholder="Seu endereço" id="address">
-
-</div>
-</div>
-
-
-<div class="form-row">
-    <div class="label-name">
-    <label for="address2" id="address-label2"> 
-        Complemento
-    </label>
-    </div>
-    <div class="input-field">
-        <input class="input-dm" type="address" name="address2" placeholder="Complete seu Endereço" id="address2">
-    
-    </div>
-    </div>
-    
-    
-    <div class="form-row">
-        <div class="label-name">
-        <label for="cep" id="cep-label" > 
-          CEP
-        </label>
+          <p>
+            Inscreva-se abaixo para receber uma cesta de
+            <span id="fcccolor"> alimentos saudáveis e orgânicos</span> na sua
+            casa.
+          </p>
         </div>
-        <div class="input-field">
-            <input class="input-dm" type="address" name="cep" placeholder="Seu CEP" id="cep">
-        
-        </div>
-        </div>
-        
+
         <div class="form-row">
-            <div class="label-name">
-            <label for="city" id="city-label" > 
-                Cidade
+          <div class="label-name">
+            <label for="name" id="name-label"> Nome </label>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Escreva aqui seu nome"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="email" id="email-label"> Email </label>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="escreva aqui seu email"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="age" id="number-label"> Idade </label>
+          </div>
+
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="number"
+              name="age"
+              id="number"
+              min="18"
+              max="90"
+              placeholder="escreva aqui sua idade"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="address" id="address-label"> Endereço </label>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="address"
+              name="address"
+              placeholder="Seu endereço"
+              id="address"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="address2" id="address-label2"> Complemento </label>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="address"
+              name="address2"
+              placeholder="Complete seu Endereço"
+              id="address2"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="cep" id="cep-label"> CEP </label>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="address"
+              name="cep"
+              placeholder="Seu CEP"
+              id="cep"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="city" id="city-label"> Cidade </label>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-dm"
+              type="address"
+              name="city"
+              placeholder="Cidade"
+              id="city-input"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="tamanho"> Escolha o tamanho da Cesta: </label>
+          </div>
+
+          <div class="input-field">
+            <select name="tamanho" id="dropdown">
+              <option selected="" disabled="">Selecione uma Opção</option>
+
+              <option value="Grande">Grande</option>
+              <option value="Média">Média</option>
+              <option value="Pequena">Pequena</option>
+              <option value="Qualquer">Qualquer opção diponível</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="label-name">
+            <label for="hora-entrega">
+              Em qual parte do dia você prefere receber nossa Cesta:
             </label>
-            </div>
-            <div class="input-field">
-                <input class="input-dm" type="address" name="city" placeholder="Cidade" id="city-input">
-            
-            </div>
-            </div>
-            
-            
+          </div>
+          <div class="input-field">
+            <select name="hora-entrega" id="dropdown">
+              <option selected="" disabled="">Selecione uma Opção</option>
+              <option value="Noite">A Noite</option>
+              <option value="Manhã">Pela Manhã</option>
+              <option value="Tarde">A Tarde</option>
+              <option value="qualquer">Qualquer horário</option>
+            </select>
+          </div>
+        </div>
 
+        <div class="form-row">
+          <div class="label-name">
+            <label for="alimentos">
+              Escolha os tipos de alimentos que você gostaria na sua Cesta:
+            </label>
+          </div>
+          <div class="input-field radio-check">
+            <label class="block">
+              <input type="checkbox" name="alimentos" value="Legumes" />
+              Legumes
+            </label>
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="Verduras"
+              />Verduras
+            </label>
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="Folhas"
+              />Folhas</label
+            >
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="Cogumelos"
+              />Cogumelos</label
+            >
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="Ovos e Embutidos"
+              />Ovos e Embutidos</label
+            >
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="Raízes, Tubérculos e outros"
+              />Raízes, Tubérculos e outros</label
+            >
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="frutas"
+              />Frutas</label
+            >
+            <label class="block"
+              ><input
+                type="checkbox"
+                name="alimentos"
+                value="Temperos e Condimentos"
+              />Temperos e Condimentos</label
+            >
+          </div>
+        </div>
 
+        <div class="form-row">
+          <div class="label-name">
+            <label for="recommend">
+              Com que frequência você consome alimentos orgânicos?
+            </label>
+          </div>
+          <div class="input-field radio-check">
+            <label class="block"
+              ><input type="radio" name="recommend" value="Definitely" />Quase
+              sempre</label
+            >
 
+            <label class="block"
+              ><input
+                type="radio"
+                name="recommend"
+                value="Maybe"
+              />Raramente</label
+            >
 
+            <label class="block"
+              ><input type="radio" name="recommend" value="Not sure" />As vezes,
+              nem sempre</label
+            >
+          </div>
+        </div>
 
+        <div class="form-row">
+          <div class="label-name">
+            <label for="suggestion"> Alguma Sugestão ou Comentário? </label>
+          </div>
+          <div class="input-field">
+            <textarea
+              class="block"
+              name="suggestion"
+              id="suggestion"
+              placeholder="Escreva aqui seu comentário..."
+            ></textarea>
+          </div>
+        </div>
 
-<div class="form-row">
-<div class="label-name">
-<label for="tamanho">
-	Escolha o tamanho da Cesta:
-</label>
+        <button type="submit" id="submit" class="submit-button">Enviar</button>
+      </form>
 
-</div>
-
-
-<div class="input-field">
-<select name="tamanho" id="dropdown">
-<option selected="" disabled="">Selecione uma Opção</option>
-
-<option value="Grande">Grande</option>
-<option value="Média">Média</option>
-<option value="Pequena">Pequena</option>
-<option value="Qualquer">Qualquer opção diponível</option>
-
-</select> 
-</div>
-</div>
-
-<div class="form-row">
-<div class="label-name">
-<label for="hora-entrega">
-Em qual parte do dia você prefere receber nossa Cesta:
-</label>
-</div>
-<div class="input-field">
-<select name="hora-entrega" id="dropdown">
-<option selected="" disabled="">Selecione uma Opção</option>
-<option value="Noite">A Noite</option>
-<option value="Manhã">Pela Manhã</option>
-<option value="Tarde">A Tarde</option>
-<option value="qualquer">Qualquer horário</option>
-</select>
-</div>
-</div>
-
-<div class="form-row">
-<div class="label-name">
-<label for="alimentos">
-Escolha os tipos de alimentos que você gostaria na sua Cesta:
-</label>
-</div>
-<div class="input-field radio-check">
-
-<label class="block"><input type="checkbox" name="alimentos" value="Legumes">Legumes</label>
-<label class="block"><input type="checkbox" name="alimentos" value="Verduras">Verduras </label>
-<label class="block"><input type="checkbox" name="alimentos" value="Folhas">Folhas</label>
-<label class="block"><input type="checkbox" name="alimentos" value="Cogumelos">Cogumelos</label>
-<label class="block"><input type="checkbox" name="alimentos" value="Ovos e Embutidos">Ovos e Embutidos</label>
-<label class="block"><input type="checkbox" name="alimentos" value="Raízes, Tubérculos e outros">Raízes, Tubérculos e outros</label>
-<label class="block"><input type="checkbox" name="alimentos" value="frutas">Frutas</label>
-<label class="block"><input type="checkbox" name="alimentos" value="Temperos e Condimentos">Temperos e Condimentos</label>
-</div>
-</div>
-
-
-<div class="form-row">
-    <div class="label-name">
-    <label for="recommend">
-    Com que frequência você consome alimentos orgânicos?
-    </label>
-    </div>
-    <div class="input-field radio-check">
-    <label class="block"><input type="radio" name="recommend" value="Definitely">Quase sempre</label>
-    
-    <label class="block"><input type="radio" name="recommend" value="Maybe">Raramente</label>
-    
-    <label class="block"><input type="radio" name="recommend" value="Not sure">As vezes, nem sempre</label>
-    </div>
-    </div>
-    
-
-
-
-
-
-
-
-<div class="form-row">
-<div class="label-name">
-<label for="suggestion">
-Alguma Sugestão ou Comentário?
-</label>
-</div>
-<div class="input-field">
-<textarea class="block" name="suggestion" id="suggestion" placeholder="Escreva aqui seu comentário..."></textarea>
-</div>
-</div>
-
-
-
-<button type="submit" id="submit" class="submit-button">
-    Enviar
-  </button>
-</div>
-</form>
-
-<footer class="footer1">Coded By <a href="https://github.com/RosaErick" target="_blank">Erick Rosa</a></footer>
-</main>	
-
-
-
-</body>
-
-
-
-
+      <footer class="footer1">
+        Coded By
+        <a href="https://github.com/RosaErick" target="_blank">Erick Rosa</a>
+      </footer>
+    </main>
+  </body>
 </html>
-
